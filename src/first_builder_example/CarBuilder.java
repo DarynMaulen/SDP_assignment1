@@ -1,7 +1,7 @@
-package cars;
+package first_builder_example;
 
 public interface CarBuilder {
-    void setManufacture(String manufacture);
+    void setManufacturer(String manufacturer);
     void setModel(String model);
     void setYear(int year);
     void setBodyType(String bodyType);

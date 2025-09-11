@@ -1,10 +1,10 @@
-package cars;
+package first_builder_example;
 
 public class SportsCarBuilder implements CarBuilder{
     private Car car = new Car();
     @Override
-    public void setManufacture(String manufacture){
-        car.setManufacture(manufacture);
+    public void setManufacturer(String manufacturer){
+        car.setManufacturer(manufacturer);
     };
     @Override
     public void setModel(String model){

@@ -1,8 +1,8 @@
-package cars;
+package first_builder_example;
 
 public class CarDirector {
     public Car construct(CarBuilder builder){
-        builder.setManufacture("Ferrari");
+        builder.setManufacturer("Ferrari");
         builder.setModel("488 GTB");
         builder.setYear(2022);
         builder.setBodyType("Coupe");

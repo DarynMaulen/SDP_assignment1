@@ -1,4 +1,4 @@
-package cars;
+package first_builder_example;
 
 public class Usage {
     public static void main(String[] args) {
