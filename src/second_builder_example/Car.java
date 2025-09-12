@@ -49,7 +49,7 @@ public class Car {
 
     @Override
     public String toString() {
-        return "first_builder_example.Car {" +
+        return "second builder example Car{" +
                 "manufacturer = " + manufacturer +
                 ", model = " + model +
                 ", year = " + year +
