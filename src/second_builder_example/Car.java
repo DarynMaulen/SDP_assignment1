@@ -1,5 +1,6 @@
 package second_builder_example;
 
+// Immutable Car class
 public class Car {
     private final String manufacturer;
     private final String model;
@@ -40,7 +41,7 @@ public class Car {
         public Builder setColor(String color) {
             this.color = color; return this;
         }
-
+        // Creates and returns a new immutable Car instance
         public Car build() {
             return new Car(manufacturer, model, year, bodyType, engine, color);
         }

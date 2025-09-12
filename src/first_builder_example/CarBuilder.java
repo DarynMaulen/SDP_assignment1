@@ -7,5 +7,6 @@ public interface CarBuilder {
     void setBodyType(String bodyType);
     void setEngine(String engine);
     void setColor(String color);
+    // Returns the final Car
     Car build();
 }

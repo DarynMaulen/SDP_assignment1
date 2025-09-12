@@ -1,5 +1,6 @@
 package first_builder_example;
 
+// Simple mutable Car class
 public class Car {
     private String manufacturer;
     private String model;
@@ -67,5 +68,4 @@ public class Car {
                 ", color = " + color +
                 '}';
     }
-
 }
